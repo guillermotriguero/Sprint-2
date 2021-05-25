@@ -30,7 +30,7 @@
       <!-- TODO ESTE DIV PONE LOS ELEMENTOS DENTRO DE NAVBAR-COLLAPSE, ES DECIR, EL MENÚ HAMBURGUESA -->
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto"> <!--esto los pone en el lado derecho. ¿Por qué a mí se me ven en el izquierod?-->
+        <ul class="navbar-nav mr-auto"> 
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
@@ -54,7 +54,7 @@
       
     <button type="button" class="btn btn-primary mr-auto" data-toggle="modal" data-target="#loginModal">Login</button>
          
-        <!-- ¿POR QUÉ LOS BOTONES NO ADMITEN UN PADDING O MARGIN? ENTIENDO QUE LES FALTA EL MR-AUTO DE LA LÍNEA 36-->
+        <!-- ¿POR QUÉ LOS BOTONES NO ADMITEN UN PADDING O MARGIN? ENTIENDO QUE LES FALTA EL MR-AUTO DE LA LÍNEA 33-->
 
       <!-- //////////////////////////////MODAL LOGIN\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
         <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -196,9 +196,11 @@
 
 <div class="container">
   <div class="row">
+    <p class="h1 text-center"> DESCUBRE MIS PROYECTOS</p>
+  <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6">
       <img src="img/tester.jpg"  class="img-fluid" />
-      <p class="text-center lead"> EXPERIENCIA COMO TESTER</p>
+      <p class="text-center lead text-warning"> EXPERIENCIA COMO TESTER</p>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6">
       <img src="img/redactor.jpg"  class="img-fluid" />
@@ -206,11 +208,6 @@
     </div>
   </div>
 </div>
-
-
-    <!-- PARA MÍ:<br>
-    - Cambiar directorio GitHub para que no se mezcle con el del Sprint 1<br>
-    - Igual con LiveServer de VSC<br> -->
 
 
     <!-- SCRIPTS VERSIÓN LOCAL -->
